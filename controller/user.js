@@ -31,6 +31,7 @@ exports.getUserByID = (req, res, next) => {
   };
   
 
+
 exports.createUser = (req,res,next) => {
 
   // Hash a password using MD5
