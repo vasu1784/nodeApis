@@ -3,8 +3,6 @@ const app = express();
 const dotenv = require("dotenv");
 // const logger = require("./middleware/logger");
 const morgan = require("morgan");
-
-
 dotenv.config({path:"./config/config.js"});
 
 const userRoute = require("./routes/user");
